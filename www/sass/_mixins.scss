@@ -1,0 +1,54 @@
+$breakpoints: (
+	tablet: "(max-width:1100px)",
+  mobile: "(max-width:600px)"
+) !default;
+
+@mixin mq($breakpoint-name)
+{
+	$breakpoint-name: unquote($breakpoint-name);
+	@if map-has-key($breakpoints, $breakpoint-name)
+	{
+		$query: map-get($breakpoints, $breakpoint-name);
+		@media all and #{$query}
+		{
+			@content;
+		}
+	}
+	@else
+	{
+		@warn "#{$mq-name} is not a value defined in the 'breakpoints' map.";
+	}
+}
+
+@mixin transition_speed {
+  transition: all 0.3s cubic-bezier(.175, .885, .32, 1);
+}
+
+@mixin transition {
+  transition: all 0.6s cubic-bezier(.175, .885, .32, 1);
+}
+
+@mixin transition_slow {
+  transition: all 1.5s cubic-bezier(.175, .885, .32, 1);
+}
+
+@mixin clearfix {
+  &:before, &:after {
+    content: " "; display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin fluid-type($min-font-size: 12px, $max-font-size: 21px, $lower-range: 700px, $upper-range: 2000px) {
+
+  font-size: calc(#{$min-font-size} + #{(($max-font-size / ($max-font-size * 0 + 1)) - ($min-font-size / ($min-font-size * 0 + 1)))} * ( (100vw - #{$lower-range}) / #{(($upper-range / ($upper-range * 0 + 1)) - ($lower-range / ($lower-range * 0 + 1)))}));
+  
+  @media screen and (max-width: $lower-range) {
+    font-size: $min-font-size;
+  }
+  @media screen and (min-width: $upper-range){
+    font-size: $max-font-size;
+  }
+}
