@@ -25,7 +25,7 @@ include($root . '/include/' . $include_folder . '/rewriting.php');
     Preview key
    ========================================================================== */
 
-// if(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST']!='intraxial'){
+// if(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST']!='pierre'){
 //     if(isset($_GET['key']) && $_GET['key']=='0eb85d42d841p706ae37c4805636fdf5b31k23jf'){$_SESSION['access']=1;}
 //     if(!isset($_SESSION['access']) || $_SESSION['access']!=1){
 //         exit();
@@ -36,7 +36,7 @@ include($root . '/include/' . $include_folder . '/rewriting.php');
     Check domain
    ========================================================================== */
 
-if($_SERVER['HTTP_HOST'] != 'intraxial'){
+if($_SERVER['HTTP_HOST'] != 'pierre'){
     if(
         (($www ? "www." : "") . $infoDomain['url'] != $_SERVER['HTTP_HOST'])
         ||

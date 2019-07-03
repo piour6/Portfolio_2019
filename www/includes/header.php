@@ -1,3 +1,13 @@
+<!--
+                         
+  ____ ___  _   _  ____ ___  _   _ 
+ / ___) _ \| | | |/ ___) _ \| | | |
+( (__| |_| | |_| ( (__| |_| | |_| |
+ \____)___/ \____|\____)___/ \____|
+                                   
+
+-->
+
 <!DOCTYPE html>
 <html lang="<?php print $langue; ?>-be">
 <head>
@@ -49,7 +59,32 @@
 <!-- END ANALYTICS -->
 
 </head>
-<body class="page_<?php print $page; ?>" data-langue="<?php print $langue; ?>" data-baseroot="<?php print $baseRoot; ?>" data-domain="<?php print $domain; ?>" data-uri="<?= $uri; ?>" data-analytics="<?= $id_tracker; ?>">
+<body class="page_<?php print $page; ?> <?php if(!isset($_SESSION['has_intro']) && $page=="home") print 'has_intro'; ?>" data-langue="<?php print $langue; ?>" data-baseroot="<?php print $baseRoot; ?>" data-domain="<?php print $domain; ?>" data-uri="<?= $uri; ?>" data-analytics="<?= $id_tracker; ?>">
 
 <div class="cursor"></div>
 <div class="follower"></div>
+
+<header class="header">
+
+  <div class="container">
+
+    <nav class="header__nav">
+      <ul>
+        <li class="header__nav-item <?php if($page=="home") print "header__nav-item--active"; ?>"><a href="<?= $domain; ?>">Mes projets</a></li>
+        <li class="header__nav-item <?php if($page=="about") print "header__nav-item--active"; ?>"><a href="<?= $domain; ?>/a-propos">À propos de moi</a></li>
+      </ul>
+    </nav>
+
+    <div class="logo">
+      <img class="logo__picto" src="<?= $baseRoot; ?>/graphics/storm.png" />
+      <h1 class="logo__title">Pierre Henrion</h1>
+      <h2 class="logo__subtitle">Front-end <div class="logo__subtitle-nodesk">developer <span>&</span> UI/UX</div> designer</h2>
+    </div>
+
+    <div class="header__contact">
+      <a href="mailto:henrion.pierre@gmail.com">Contact</a>
+    </div>
+
+  </div>
+
+</header>

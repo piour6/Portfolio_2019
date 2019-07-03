@@ -8,8 +8,9 @@
 
 $font: 'Poppins', sans-serif;
 $heavy: 'Muller';
-$purple: #4d4d87;
-$yellow: #ffcd73;
+// $purple: #4d4d87;
+$purple: #11112b;
+$yellow: #ffc55b;
 
 /*  ==========================================================================
 	Helpers
@@ -20,7 +21,7 @@ body {
 	color: #666;
 	line-height: 1.3;
 	font-family: $font;
-	// cursor: none;
+    overflow-x: hidden;
 }
 
 button, input, optgroup, select, textarea {
@@ -64,6 +65,18 @@ button, input, optgroup, select, textarea {
         padding-left: 30px;
         padding-right: 30px;
     }
+    &.container--mini {
+        max-width: 1400px;
+    }
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    @include mq("tablet"){
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .disabled {
@@ -99,6 +112,15 @@ button, input, optgroup, select, textarea {
 /*  ==========================================================================
 	Animations
     ==========================================================================  */
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
 
 @keyframes scalePicture {
 	from {
@@ -521,11 +543,24 @@ button, input, optgroup, select, textarea {
 }
 
 /*  ==========================================================================
+    Home
+    ==========================================================================  */
+
+.page_home {
+    overflow: hidden;
+    background: radial-gradient(circle, rgba(24,24,64,1) 0%, rgba(2,0,36,1) 100%);
+    background: $purple;
+}
+
+/*  ==========================================================================
 	Home
 	==========================================================================  */
 
-.page_home {
-	overflow: hidden;
+.page_about {
+    background: #fff;
+    .header {
+        background: $purple;
+    }
 }
 
 /*  ==========================================================================
@@ -537,12 +572,55 @@ button, input, optgroup, select, textarea {
 }
 
 .slider--home {
+    transition: all ease-out 1s;
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
+    transform: scale(1);
+}
+
+.slider__arrow {
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 89px;
+    opacity: 0;
+    @include transition;
+    &.slider__arrow--prev {
+        background: url(../../graphics/arrow_left.png) center center no-repeat;
+        background-size: 50% auto;
+        transform: translate(20px,-50%);
+        left: 80px;
+        @include mq("tablet"){
+            left: 10px;
+            background-size: 20% auto;
+            transform: translate(0,-50%);
+        }
+    }
+    &.slider__arrow--next {
+        background: url(../../graphics/arrow_right.png) center center no-repeat;
+        background-size: 50% auto;
+        transform: translate(-20px,-50%);
+        right: 80px;
+        @include mq("tablet"){
+            right: 10px;
+            background-size: 20% auto;
+            transform: translate(0,-50%);
+        }
+    }
+    @include mq("tablet"){
+        opacity: 1;
+    } 
+}
+
+.slider__arrow--visible {
+    opacity: 1;
+    transform: translate(0,-50%) !important;
 }
 
 .slider__item {
@@ -619,27 +697,23 @@ button, input, optgroup, select, textarea {
 }
 
 .slider__item-picture--1 {
-	background-image: url(../../graphics/cases/1_velux.jpg);
-}
-
-.slider__item-picture--2 {
 	background-image: url(../../graphics/cases/2_dieteren.jpg);
 }
 
-.slider__item-picture--3 {
-	background-image: url(../../graphics/cases/3_gantrex.jpg);
+.slider__item-picture--2 {
+	background-image: url(../../graphics/cases/3_octobus.jpg);
 }
 
-.slider__item-picture--4 {
+.slider__item-picture--3 {
 	background-image: url(../../graphics/cases/4_corman.jpg);
 }
 
-.slider__item-picture--5 {
-	background-image: url(../../graphics/cases/5_merck.jpg);
+.slider__item-picture--4 {
+	background-image: url(../../graphics/cases/5_bruxelles_formation.jpg);
 }
 
-.slider__item-picture--6 {
-	background-image: url(../../graphics/cases/6_bruxelles_formation.jpg);
+.slider__item-picture--5 {
+	background-image: url(../../graphics/cases/1_velux.jpg);
 }
 
 .slider__nav {
@@ -648,7 +722,7 @@ button, input, optgroup, select, textarea {
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 99;
-	width: 300px;
+	width: 250px;
 	ul {
 		font-size: 0;
 	}
@@ -705,19 +779,19 @@ button, input, optgroup, select, textarea {
 		left: 0;
 	}
 	&.slider__nav-counter--2 {
-		left: calc(100% / 6);
+		left: calc(100% / 5);
 	}
 	&.slider__nav-counter--3 {
-		left: calc(100% / 6 * 2);
+		left: calc(100% / 5 * 2);
 	}
 	&.slider__nav-counter--4 {
-		left: calc(100% / 6 * 3);
+		left: calc(100% / 5 * 3);
 	}
 	&.slider__nav-counter--5 {
-		left: calc(100% / 6 * 4);
+		left: calc(100% / 5 * 4);
 	}
 	&.slider__nav-counter--6 {
-		left: calc(100% / 6 * 5);
+		left: calc(100% / 5 * 5);
 	}
 }
 
@@ -824,27 +898,69 @@ button, input, optgroup, select, textarea {
 }
 
 /*  ==========================================================================
+    Anim intro
+    ==========================================================================  */
+
+.has_intro {
+    .header {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 0;
+    }
+    .slider--home {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    .header__nav li {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    .header__contact {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    .logo__picto {
+        animation: blink 0.5s infinite linear alternate-reverse;
+    }
+}
+
+/*  ==========================================================================
 	Header
 	==========================================================================  */
+
+.margin_header {
+    margin-top: 170px;
+    @include mq("tablet"){
+        margin-top: 130px;
+    }
+}
 
 .header {
     position: absolute;
     z-index: 99;
-    margin-top: 60px;
+    padding: 60px 0;
     width: 100%;
     left: 0;
     top: 0;
+    transition: all ease-out 0.6s;
+    @include mq("tablet"){
+        padding: 0;
+        height: 130px;
+    }
 }
 
 .logo {
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 50%;
     width: 100%;
     max-width: 360px;
     text-align: center;
     transform: translateX(-50%);
     z-index: 1;
+    @include mq("tablet"){ 
+        top: 22px;
+    }
 }
 
 .logo__title {
@@ -865,9 +981,34 @@ button, input, optgroup, select, textarea {
     }
 }
 
+.logo__subtitle-nodesk {
+    display: inline;
+    @include mq("tablet"){
+        display: none;
+    }
+}
+
+.logo__picto {
+    width: 16px;
+    display: block;
+    margin: 0 auto 10px auto;
+    animation: none;
+    @include transition_speed;
+}
+
 .header__nav {
     @include mq("tablet"){
         display: none;
+    }
+    li {
+        position: relative;
+        transform: translateY(0);
+        &:nth-child(1){
+            transition: all ease-out 0.3s 0.7s;
+        }
+        &:nth-child(2){
+            transition: all ease-out 0.3s 0.8s;
+        }
     }
 }
 
@@ -898,25 +1039,94 @@ button, input, optgroup, select, textarea {
             }
         }
     }
+    &.header__nav-item--active {
+        color: $yellow;
+        a {
+            &:before {
+                width: 100%;
+                background: $yellow;
+            }
+        }
+    }
 }
 
 .header__contact {
     position: absolute;
-    top: 10px;
+    top: 70px;
     right: 100px;
-    background: url(../../graphics/contact_icon.png);
-    background-size: 100% 100%;
-    width: 30px;
-    height: 30px;
-    display: block;
-    text-indent: -9999px;
-    @include transition_speed;
-    &:hover {
-        transform: scale(0.9);
+    transform: translateY(0);
+    cursor: pointer;
+    transition: all ease-out 0.3s 0.9s;
+    a {
+        background: url(../../graphics/contact_icon.png);
+        background-size: 100% 100%;
+        width: 30px;
+        height: 30px;
+        display: block;
+        text-indent: -9999px;
+        @include transition_speed;
+        &:hover {
+            transform: scale(0.9);
+        }
     }
     @include mq("tablet"){
         display: none;
     }
+}
+
+/*  ==========================================================================
+    About
+    ==========================================================================  */
+
+.about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    @include mq("tablet"){
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.about__title {
+    font-family: $heavy;
+    text-transform: uppercase;
+    font-size: 92px;
+    color: $purple;
+    line-height: 1.1;
+    color: $purple;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $purple;    
+    span {
+        position: relative;
+        display: inline-block;
+        color: $yellow;
+        -webkit-text-fill-color: $purple;
+        -webkit-text-stroke-width: 0;
+        @extend .glitch;
+    }    
+}
+
+.about__subtitle {
+    line-height: 1.3;
+    margin-bottom: 40px;
+    font-size: 36px;
+    display: block;
+    color: $yellow;
+    font-weight: 600;  
+}
+
+.about__intro-left {
+    float: left;
+    width: 50%;
+}
+
+.about__intro-right {
+    float: left;
+    width: 50%;
+    padding-left: 100px;
+    line-height: 1.8;
+    font-weight: 100;
 }
 
 /*  ==========================================================================
