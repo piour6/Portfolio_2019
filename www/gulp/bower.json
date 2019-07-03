@@ -1,0 +1,22 @@
+{
+  "name": "Project",
+  "description": "slicing",
+  "main": "index.html",
+  "authors": [
+    "strategie TechCenter"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "jquery": "^3.3.1"
+  }
+}
