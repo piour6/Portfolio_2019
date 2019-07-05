@@ -11,8 +11,6 @@ include('../include/config.php');
 
 include($root . '/include/domain.php');
 
-include($root . '/include/pg_connect.php');
-
 include($root . '/include/' . $include_folder . '/function.php');
 
 /* ==========================================================================
