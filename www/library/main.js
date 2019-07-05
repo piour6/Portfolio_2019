@@ -284,4 +284,53 @@ $(document).ready(function() {
 		$(".slider__item").removeClass("slider__item--animated");
 	});
 
+/*  ==========================================================================
+    About : slider logos
+    ==========================================================================  */
+
+	if($('.js_slider_logos').is(":visible")){
+		$('.js_slider_logos').slick({
+		  dots: false,
+		  infinite: true,
+		  speed: 300,
+		  slidesToShow: 8,
+		  slidesToScroll: 8,
+		  autoplay: true,
+		  arrows: false,
+		  responsive: [
+		    {
+		      breakpoint: 1400,
+		      settings: {
+		        slidesToShow: 6,
+		        slidesToScroll: 6
+		      }
+		    },
+		    {
+		      breakpoint: 1000,
+		      settings: {
+		        slidesToShow: 4,
+		        slidesToScroll: 4
+		      }
+		    },
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 3
+		      }
+		    }
+		  ]
+		});
+	}
+
+/*  ==========================================================================
+    About : scroll to subsections
+    ==========================================================================  */
+
+    $(".js_about_scrollto").click(function(e){
+    	e.preventDefault();
+    	var section = $(this).data("section");
+    	$("html,body").stop().animate({"scrollTop":$(".js_about_section[data-section="+section+"]").offset().top},1000);
+    });
+
 });
