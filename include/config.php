@@ -18,12 +18,21 @@ $id_tracker = "";
     URL INFO
    ========================================================================== */
 
-/* - INTRA ------------------------------------------------------------------ */
+/* - LOCAL ------------------------------------------------------------------ */
 
-$configDomain['intra']['url'] = "intraxial/pierre_test/sass/project/www";
+$configDomain['intra']['url'] = "pierre";
 $configDomain['intra']['default_lang'] = "fr";
 $configDomain['intra']['accepted_lang'] = ["fr"];
 $configDomain['intra']['include_folder'] = "www_folder";
+
+/* - PREVIEW ----------------------------------------------------------------- */
+
+$configDomain['preview']['url'] = "preview.pierre-henrion.be";
+$configDomain['preview']['secure'] = true; //optional if false
+$configDomain['preview']['www'] = false; //optional if false
+$configDomain['preview']['default_lang'] = "fr";
+$configDomain['preview']['accepted_lang'] = ["fr"];
+$configDomain['preview']['include_folder'] = "www_folder";
 
 /* - ONLINE ----------------------------------------------------------------- */
 

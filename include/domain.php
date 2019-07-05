@@ -3,7 +3,7 @@ if(isset($_SERVER['HTTP_HOST']) && isset($configDomain)){
 
     $http_host = str_replace("www.", "", $_SERVER['HTTP_HOST']);
 
-    if($http_host == 'intraxial'){
+    if($http_host == 'pierre'){
         $infoDomain = $configDomain['intra'];
     }
     elseif($http_host == $configDomain['preview']['url']){
