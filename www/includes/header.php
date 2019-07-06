@@ -64,6 +64,12 @@
 <div class="cursor"></div>
 <div class="follower"></div>
 
+<div class="hamburger js_trigger_nav">
+  <svg class="hamburger__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23px" height="12px">
+  <path fill-rule="evenodd" fill="" d="M-0.000,12.000 L-0.000,9.000 L23.000,9.000 L23.000,12.000 L-0.000,12.000 ZM-0.000,-0.000 L23.000,-0.000 L23.000,3.000 L-0.000,3.000 L-0.000,-0.000 Z"></path>
+  </svg>
+</div>
+
 <header class="header">
 
   <div class="container">
