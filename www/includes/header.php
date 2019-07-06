@@ -75,11 +75,11 @@
       </ul>
     </nav>
 
-    <div class="logo">
+    <a href="<?= $domain; ?>" class="logo">
       <img class="logo__picto" src="<?= $baseRoot; ?>/graphics/storm.png" />
       <h1 class="logo__title">Pierre Henrion</h1>
       <h2 class="logo__subtitle">Front-end <div class="logo__subtitle-nodesk">developer <span>&</span> UI/UX</div> designer</h2>
-    </div>
+    </a>
 
     <div class="header__contact">
       <a href="mailto:henrion.pierre@gmail.com">Contact</a>

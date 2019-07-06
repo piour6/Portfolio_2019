@@ -109,67 +109,127 @@
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/velux.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/kinder.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/proximus.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/loreal.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/nutella.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/spa.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/carlsbourg.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/heytens.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/quick.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/touring.png" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/dieteren.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/durex.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/dixan.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/scholl.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/stimorol.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/clubmed.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/makro.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/ndg.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/betfirst.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/nivea.png" />
+					</div>
+				</div>
+
+				<div class="about__clients-item">
+					<div class="about__clients-item-content">
+						<img src="<?= $baseRoot; ?>/graphics/clients/childfocus.png" />
 					</div>
 				</div>
 
