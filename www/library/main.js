@@ -96,6 +96,43 @@ $(document).ready(function() {
 		$("body").removeClass("is_mobile");
 	}
 
+/* ==========================================================================
+   Navigation hide / show
+   ========================================================================== */
+
+	var previousPosition = 0;
+	var nav_state = 1;
+	var currentPosition = 0;
+	var seuilScroll = 150;
+
+	$(window).scroll(function(){
+		currentPosition = $(window).scrollTop();
+			if (currentPosition<previousPosition) {
+				var new_state=1;
+			}else {
+				var new_state=2;
+			};
+			changeState(new_state);
+			previousPosition = currentPosition;
+	});
+
+	function changeState(new_state) {
+		if(currentPosition>seuilScroll){
+			$("body").addClass("header-state3");
+		} else {
+			$("body").removeClass("header-state3");
+		}
+	   	if (nav_state != new_state) {
+	   		expandNav(new_state);
+			nav_state=new_state;
+	   	}
+	}
+
+	function expandNav(new_state) {
+		$("body").removeClass("header-state1 header-state2");
+		$("body").addClass("header-state"+new_state);
+	}
+
 /*  ==========================================================================
     Cursor
     credits : https://codepen.io/yamada-evoworx/pen/YgwwbW?page=1&
