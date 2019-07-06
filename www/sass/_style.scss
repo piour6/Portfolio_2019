@@ -1317,7 +1317,7 @@ button, input, optgroup, select, textarea {
     overflow: hidden;
     position: relative;
     color: #fff;
-    @extend .noise;
+    // @extend .noise;
     @include mq("tablet"){
         margin-top: 60px;
         padding: 60px 0;
@@ -1514,7 +1514,7 @@ button, input, optgroup, select, textarea {
     padding: 200px 0;
     overflow: hidden;
     position: relative;
-    @extend .noise;
+    // @extend .noise;
     @include mq("tablet"){
         padding: 60px 0;
     }    
