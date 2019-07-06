@@ -100,6 +100,10 @@ button, input, optgroup, select, textarea {
     color: #666;
 }
 
+*{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 ::selection {
   background: $yellow;
   color: #fff;
