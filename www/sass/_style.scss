@@ -1274,15 +1274,15 @@ button, input, optgroup, select, textarea {
         }
         &:nth-child(1){
             transform: translateX(20px);
-            transition-delay: 0.3s;
+            transition-delay: 0.5s;
         }
         &:nth-child(2){
             transform: translateX(-20px);
-            transition-delay: 0.4s;
+            transition-delay: 0.6s;
         }
         &:nth-child(3){
             transform: translateX(20px);
-            transition-delay: 0.5s;
+            transition-delay: 0.7s;
         }       
     }
 }
