@@ -178,6 +178,7 @@ $(document).ready(function() {
 		$(document).on("mousemove", function(e) {
 		    mouseX = e.pageX;
 		    mouseY = e.pageY;
+		    $(".cursor, .follower").addClass("visible");
 		});
 
 		$("a, .js_link").on({
