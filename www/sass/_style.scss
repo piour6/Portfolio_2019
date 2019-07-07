@@ -547,61 +547,64 @@ button, input, optgroup, select, textarea {
 
 .cursor,
 .follower {
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0; 
-  pointer-events: none;
+    display: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    pointer-events: none;
 }
 
 .cursor {
-  width: 8px;
-  height: 8px;
-  background-color: #fff;
-  z-index: 1001;
-  mix-blend-mode: difference;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    z-index: 1001;
+    mix-blend-mode: difference;
 }
 
 .follower {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: rgba($yellow, .3);
-  z-index: 1000;
-  transition: transform ease .1s;
-  text-align: center;
-  overflow: hidden;
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: url(../../graphics/pattern.gif);
-    background-size: cover;
-    opacity: 0.0;
-  }
-  span {
-    display: inline-block;
-    font-size: 14px;
-    font-weight: bold;
-    transform: scale(0);
-  }
-  &.is-active {
-    transform: scale(3);
-    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba($yellow, .3);
+    z-index: 1000;
+    transition: transform ease .1s;
+    text-align: center;
+    overflow: hidden;
     &:before {
-        opacity: 0.05;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../../graphics/pattern.gif);
+        background-size: cover;
+        opacity: 0;
     }
-  }
+    span {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        transform: scale(0);
+    }
+    &.is-active {
+        transform: scale(3);
+        background-size: cover;
+        &:before {
+            opacity: 0.05;
+        }
+    }
 }
 
-.is_mobile {
-	.cursor, .follower {
-		display: none;
+.has_cursor {
+    .cursor {
+        display: block;
+    }
+	.follower {
+		display: flex;
 	}
 }
 

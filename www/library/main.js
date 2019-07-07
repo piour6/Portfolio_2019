@@ -92,8 +92,10 @@ $(document).ready(function() {
 
 	if(ismobile){
 		$("body").addClass("is_mobile");
+		$("body").removeClass("has_cursor");
 	} else {
 		$("body").removeClass("is_mobile");
+		$("body").addClass("has_cursor");
 	}
 
 /* ==========================================================================
