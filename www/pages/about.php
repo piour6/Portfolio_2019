@@ -81,8 +81,10 @@
 						<li>méthodologie bem</li>
 						<li>préprocesseur sass</li>
 						<li>emploi de npm/gulp</li>
+						<li>versioning avec git</li>
 						<li>webdesign, ux/ui design</li>
 						<li>cross-browser + responsive + mobile</li>
+						<li>tracking analytics avancé</li>
 						<li>bonnes notions de seo</li>
 						<li>bonne maitrise de la suite adobe creative (photoshop & illustrator)</li>
 					</ul>

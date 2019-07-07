@@ -14,7 +14,7 @@ $(document).ready(function() {
     Intro anim
     ==========================================================================  */
 
-    var original = $(".logo__subtitle").text();
+    var original = $(".logo__subtitle").html();
 
     var intro_loading = 5000;
 
@@ -22,7 +22,7 @@ $(document).ready(function() {
 	    setTimeout(function(){
 	    	$("body").removeClass("has_intro");
 	    	clearInterval(interval);
-			$(".logo__subtitle").text(original);
+			$(".logo__subtitle").html(original);
 	    },intro_loading);
     }
 
@@ -370,4 +370,27 @@ $(document).ready(function() {
     	$("html,body").stop().animate({"scrollTop":$(".js_about_section[data-section="+section+"]").offset().top},1000);
     });
 
+/* ==========================================================================
+   Navigation hamburger
+   ========================================================================== */
+
+	$('body').on('click', '.js_trigger_nav', function() {
+		if($("body").hasClass("is_navigation")){
+			continueScrolling();
+			$("body").removeClass("is_navigation");
+		} else {
+			stopScrolling();
+			$("body").addClass("is_navigation");
+		}
+	});
+
 });
+
+function stopScrolling() {
+    $('body').addClass('noscroll');
+}
+
+function continueScrolling() {
+    $('body').removeClass('noscroll');
+    $('html').css({ width: "auto" });
+}
