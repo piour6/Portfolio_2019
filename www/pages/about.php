@@ -85,6 +85,7 @@
 						<li>webdesign, ux/ui design</li>
 						<li>cross-browser + responsive + mobile</li>
 						<li>tracking analytics avancé</li>
+						<li>au courant des normes GDPR</li>
 						<li>bonnes notions de seo</li>
 						<li>bonne maitrise de la suite adobe creative (photoshop & illustrator)</li>
 					</ul>
@@ -93,10 +94,10 @@
 
 			</div>
 
-			<div class="about__jobs-line about__jobs-line--1"></div>
-			<div class="about__jobs-line about__jobs-line--2"></div>
-			<div class="about__jobs-line about__jobs-line--3"></div>
-			<div class="about__jobs-line about__jobs-line--4"></div>
+			<div class="line line--1"></div>
+			<div class="line line--2"></div>
+			<div class="line line--3"></div>
+			<div class="line line--4"></div>
 
 		</div>
 
@@ -245,9 +246,12 @@
 				<h2 class="about__contact-title">Envie d'en <span>savoir plus</span>&nbsp;?</h2>
 				<a href="mailto:henrion.pierre@gmail.com" class="button">Me contacter par e-mail</a>
 				<a href="https://www.linkedin.com/in/pierre-henrion-08a59328/" target="_blank" class="button">Mon profil LinkedIn</a>
+				<a href="https://github.com/piour6/Portfolio_2019" target="_blank" class="button">Mon code sur GitHub</a>
 			</div>
 		</div>
 
 	</section>
 
 </div>
+
+<canvas id="blob"></canvas>

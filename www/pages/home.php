@@ -13,7 +13,7 @@
 					<h3 class="slider__item-title-elem" data-text="D'Ieteren">D'Ieteren</h3>
 				</div>
 				<div class="slider__item-cta">
-					<a href="#" class="slider__item-button js_open_case">Découvrir</a>
+					<a href="<?= $domain; ?>/projets/1/dieteren" class="slider__item-button js_open_case">Découvrir</a>
 				</div>
 			</div>
 			<div class="slider__item-picture slider__item-picture--1"></div>
@@ -25,7 +25,7 @@
 					<h3 class="slider__item-title-elem" data-text="Octobus">Octobus</h3>
 				</div>
 				<div class="slider__item-cta">
-					<a href="#" class="slider__item-button js_open_case">Découvrir</a>
+					<a href="<?= $domain; ?>/projets/2/octobus" class="slider__item-button js_open_case">Découvrir</a>
 				</div>
 			</div>
 			<div class="slider__item-picture slider__item-picture--2"></div>
@@ -37,7 +37,7 @@
 					<h3 class="slider__item-title-elem" data-text="Corman">Corman</h3>
 				</div>
 				<div class="slider__item-cta">
-					<a href="#" class="slider__item-button js_open_case">Découvrir</a>
+					<a href="<?= $domain; ?>/projets/3/corman" class="slider__item-button js_open_case">Découvrir</a>
 				</div>
 			</div>
 			<div class="slider__item-picture slider__item-picture--3"></div>
@@ -49,7 +49,7 @@
 					<h3 class="slider__item-title-elem" data-text="Bruxelles">Bruxelles</h3>
 				</div>
 				<div class="slider__item-cta">
-					<a href="#" class="slider__item-button js_open_case">Découvrir</a>
+					<a href="<?= $domain; ?>/projets/4/bruxelles-formation" class="slider__item-button js_open_case">Découvrir</a>
 				</div>
 			</div>
 			<div class="slider__item-picture slider__item-picture--4"></div>
@@ -61,7 +61,7 @@
 					<h3 class="slider__item-title-elem" data-text="Velux">Velux</h3>
 				</div>
 				<div class="slider__item-cta">
-					<a href="#" class="slider__item-button js_open_case">Découvrir</a>
+					<a href="<?= $domain; ?>/projets/5/velux" class="slider__item-button js_open_case">Découvrir</a>
 				</div>
 			</div>
 			<div class="slider__item-picture slider__item-picture--5"></div>

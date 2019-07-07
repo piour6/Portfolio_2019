@@ -76,7 +76,7 @@
 
     <nav class="header__nav">
       <ul>
-        <li class="header__nav-item <?php if($page=="home") print "header__nav-item--active"; ?>"><a href="<?= $domain; ?>">Mes projets</a></li>
+        <li class="header__nav-item <?php if($page=="home" || $page=="project_detail") print "header__nav-item--active"; ?>"><a href="<?= $domain; ?>">Mes projets</a></li>
         <li class="header__nav-item <?php if($page=="about") print "header__nav-item--active"; ?>"><a href="<?= $domain; ?>/a-propos">À propos de moi</a></li>
       </ul>
     </nav>
@@ -97,12 +97,12 @@
 
 <div class="header__nav-alt header__nav-alt--mobile">
   <ul>
-    <li class="header__nav-alt-item <?php if($page=="home") print "header__nav-alt-item--active"; ?>""><a href="<?= $domain; ?>">Mes projets</a></li>
+    <li class="header__nav-alt-item <?php if($page=="home" || $page=="project_detail") print "header__nav-alt-item--active"; ?>""><a href="<?= $domain; ?>">Mes projets</a></li>
     <li class="header__nav-alt-item <?php if($page=="about") print "header__nav-alt-item--active"; ?>""><a href="<?= $domain; ?>/a-propos">À propos de moi</a></li>
     <li class="header__nav-alt-item"><a href="mailto:henrion.pierre@gmail.com">Contact</a></li>
   </ul>  
-  <div class="about__jobs-line about__jobs-line--1"></div>   
-  <div class="about__jobs-line about__jobs-line--2"></div>   
-  <div class="about__jobs-line about__jobs-line--3"></div>   
-  <div class="about__jobs-line about__jobs-line--4"></div>   
+  <div class="line line--1"></div>   
+  <div class="line line--2"></div>   
+  <div class="line line--3"></div>   
+  <div class="line line--4"></div>   
 </div>
