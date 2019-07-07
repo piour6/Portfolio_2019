@@ -28,8 +28,14 @@ switch ($page){
     // about          
     case 'project_detail':
         $accepted_ids = ["1","2","3","4","5"];
+        $accepted_ids_length = count($accepted_ids);
         if(isset($_GET['id']) && in_array($_GET['id'], $accepted_ids)){
             $id = $_GET['id'];
+            if($id==$accepted_ids_length){
+                $next_id = 1;
+            } else {
+                $next_id = $id + 1;
+            }
         } else {
             display404();
         }

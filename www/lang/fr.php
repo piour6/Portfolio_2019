@@ -8,6 +8,7 @@ $trad= [];
 
 // projet 1
 
+$trad['projet1_slug'] = 'dieteren';
 $trad['projet1_title'] = 'D\'Ieteren';
 $trad['projet1_context'] = 'Réalisé chez strategie agency';
 $trad['projet1_year'] = '2018';
@@ -18,6 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean diam risus, aliq
 
 // projet 2
 
+$trad['projet2_slug'] = 'octobus';
 $trad['projet2_title'] = 'Octobus';
 $trad['projet2_context'] = '';
 $trad['projet2_year'] = '';
@@ -26,6 +28,7 @@ $trad['projet2_intro'] = '';
 
 // projet 3
 
+$trad['projet3_slug'] = 'corman';
 $trad['projet3_title'] = 'Corman';
 $trad['projet3_context'] = '';
 $trad['projet3_year'] = '';
@@ -34,6 +37,7 @@ $trad['projet3_intro'] = '';
 
 // projet 4
 
+$trad['projet4_slug'] = 'bruxelles-formation';
 $trad['projet4_title'] = 'Bruxelles';
 $trad['projet4_context'] = '';
 $trad['projet4_year'] = '';
@@ -42,6 +46,7 @@ $trad['projet4_intro'] = '';
 
 // projet 5
 
+$trad['projet5_slug'] = 'velux';
 $trad['projet5_title'] = 'Velux';
 $trad['projet5_context'] = '';
 $trad['projet5_year'] = '';
