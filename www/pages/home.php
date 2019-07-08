@@ -22,10 +22,10 @@
 		<div class="slider__item slider__item--2" data-id="2">
 			<div class="slider__item-content">
 				<div class="slider__item-title">
-					<h3 class="slider__item-title-elem" data-text="Octobus">Octobus</h3>
+					<h3 class="slider__item-title-elem" data-text="Balade">Balade</h3>
 				</div>
 				<div class="slider__item-cta">
-					<a href="<?= $domain; ?>/projets/2/octobus" class="slider__item-button js_open_case">Découvrir</a>
+					<a href="<?= $domain; ?>/projets/2/balade" class="slider__item-button js_open_case">Découvrir</a>
 				</div>
 			</div>
 			<div class="slider__item-picture slider__item-picture--2"></div>
@@ -34,34 +34,34 @@
 		<div class="slider__item slider__item--3" data-id="3">
 			<div class="slider__item-content">
 				<div class="slider__item-title">
-					<h3 class="slider__item-title-elem" data-text="Corman">Corman</h3>
+					<h3 class="slider__item-title-elem" data-text="Bruxelles">Bruxelles</h3>
 				</div>
 				<div class="slider__item-cta">
-					<a href="<?= $domain; ?>/projets/3/corman" class="slider__item-button js_open_case">Découvrir</a>
+					<a href="<?= $domain; ?>/projets/3/bruxelles-formation" class="slider__item-button js_open_case">Découvrir</a>
 				</div>
 			</div>
 			<div class="slider__item-picture slider__item-picture--3"></div>
 		</div>
-
-		<div class="slider__item slider__item--4" data-id="4">
-			<div class="slider__item-content">
-				<div class="slider__item-title">
-					<h3 class="slider__item-title-elem" data-text="Bruxelles">Bruxelles</h3>
-				</div>
-				<div class="slider__item-cta">
-					<a href="<?= $domain; ?>/projets/4/bruxelles-formation" class="slider__item-button js_open_case">Découvrir</a>
-				</div>
-			</div>
-			<div class="slider__item-picture slider__item-picture--4"></div>
-		</div>
 		
-		<div class="slider__item slider__item--5" data-id="5">
+		<div class="slider__item slider__item--4" data-id="4">
 			<div class="slider__item-content">
 				<div class="slider__item-title">
 					<h3 class="slider__item-title-elem" data-text="Velux">Velux</h3>
 				</div>
 				<div class="slider__item-cta">
-					<a href="<?= $domain; ?>/projets/5/velux" class="slider__item-button js_open_case">Découvrir</a>
+					<a href="<?= $domain; ?>/projets/4/velux" class="slider__item-button js_open_case">Découvrir</a>
+				</div>
+			</div>
+			<div class="slider__item-picture slider__item-picture--4"></div>
+		</div>
+
+		<div class="slider__item slider__item--5" data-id="5">
+			<div class="slider__item-content">
+				<div class="slider__item-title">
+					<h3 class="slider__item-title-elem" data-text="Octobus">Octobus</h3>
+				</div>
+				<div class="slider__item-cta">
+					<a href="<?= $domain; ?>/projets/5/octobus" class="slider__item-button js_open_case">Découvrir</a>
 				</div>
 			</div>
 			<div class="slider__item-picture slider__item-picture--5"></div>

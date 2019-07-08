@@ -34,39 +34,39 @@
 
 	<section class="project__content">
 
-		<div class="container container--margin container--mini">
-			<blockquote class="project__intro">
-				<?= $trad['projet'.$id.'_intro']; ?>
-			</blockquote>
+		<div class="container container--margin container--neg container--mini">
+			<div class="picture picture--full">
+				<img src="<?= $baseRoot; ?>/graphics/cases/detail/<?= $id; ?>/big1.png" />
+			</div>
 		</div>
 
 		<div class="container container--margin container--mini">
 			<div class="picture picture--full">
-				<img src="https://via.placeholder.com/1600x2400.png" />
+				<img src="<?= $baseRoot; ?>/graphics/cases/detail/<?= $id; ?>/big2.png" />
 			</div>
 		</div>
 
 		<div class="container--full container--margin">
 			<div class="picture picture--third">
-				<img src="https://via.placeholder.com/900x900.png" />
+				<img src="<?= $baseRoot; ?>/graphics/cases/detail/<?= $id; ?>/square1.png" />
 			</div>
 			<div class="picture picture--third">
-				<img src="https://via.placeholder.com/900x900.png" />
+				<img src="<?= $baseRoot; ?>/graphics/cases/detail/<?= $id; ?>/square2.png" />
 			</div>
 			<div class="picture picture--third">
-				<img src="https://via.placeholder.com/900x900.png" />
+				<img src="<?= $baseRoot; ?>/graphics/cases/detail/<?= $id; ?>/square3.png" />
 			</div>
 		</div>
 
 		<div class="container container--margin container--mini">
 			<div class="picture picture--full">
-				<img src="https://via.placeholder.com/1600x900.png" />
+				<img src="<?= $baseRoot; ?>/graphics/cases/detail/<?= $id; ?>/big3.png" />
 			</div>
 		</div>
 
 		<div class="container container--margin container--mini">
 			<div class="picture picture--full">
-				<img src="https://via.placeholder.com/1600x2400.png" />
+				<img src="<?= $baseRoot; ?>/graphics/cases/detail/<?= $id; ?>/big4.png" />
 			</div>
 		</div>
 
