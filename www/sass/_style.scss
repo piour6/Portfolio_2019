@@ -68,6 +68,9 @@ button, input, optgroup, select, textarea {
     &.container--mini {
         max-width: 1400px;
     }
+    &.container--center {
+        text-align: center;
+    }
 }
 
 .content {
@@ -580,6 +583,30 @@ button, input, optgroup, select, textarea {
         text-align: center;
         display: block;
         font-size: 13px;
+    }
+}
+
+.button--yellow {   
+    font-family: $font;
+    font-size: 12px;
+    margin-right: 0;
+    border: 1px solid rgba($yellow,1);
+    color: $yellow;
+    &:hover {
+        letter-spacing: 5px;
+    }
+}
+
+.button--purple {   
+    font-family: $font;
+    font-size: 12px;
+    margin-right: 0;
+    border: 0;
+    background: $purple;
+    color: $yellow;
+    &:hover {
+        letter-spacing: 5px;
+        background: $purple;
     }
 }
 

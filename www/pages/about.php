@@ -244,9 +244,9 @@
 		<div class="about__contact">
 			<div class="container container--mini">
 				<h2 class="about__contact-title">Envie d'en <span>savoir plus</span>&nbsp;?</h2>
-				<a href="mailto:henrion.pierre@gmail.com" class="button">Me contacter par e-mail</a>
-				<a href="https://www.linkedin.com/in/pierre-henrion-08a59328/" target="_blank" class="button">Mon profil LinkedIn</a>
-				<a href="https://github.com/piour6/Portfolio_2019" target="_blank" class="button">Mon code sur GitHub</a>
+				<a href="mailto:henrion.pierre@gmail.com" class="button">E-mail</a>
+				<a href="https://www.linkedin.com/in/pierre-henrion-08a59328/" target="_blank" class="button">LinkedIn</a>
+				<a href="https://github.com/piour6/Portfolio_2019" target="_blank" class="button">GitHub</a>
 			</div>
 		</div>
 

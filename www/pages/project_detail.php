@@ -70,6 +70,10 @@
 			</div>
 		</div>
 
+		<div class="container container--margin container--mini container--center">
+			<a class="button button--purple" href="<?= $trad['projet'.$id.'_url']; ?>" target="_blank">Voir le site</a>
+		</div>
+
 	</section>
 
 	<a href="<?= $domain; ?>/projets/<?= $next_id; ?>/<?= $trad['projet'.$next_id.'_slug']; ?>" class="slider slider--project slider--project--next">
