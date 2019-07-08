@@ -17,7 +17,7 @@ switch ($page){
 
     // about          
     case 'about':
-        $title_page = "Pierre Henrion — Creative front-end developer";
+        $title_page = "À propos de moi — Pierre Henrion";
         $desc_page = "";
         $section='about';
         $analytics_label = "About";
@@ -39,7 +39,7 @@ switch ($page){
         } else {
             display404();
         }
-        $title_page = "Pierre Henrion — Creative front-end developer";
+        $title_page = $trad['projet'.$id.'_title']." — Projets — Pierre Henrion";
         $desc_page = "";
         $section='about';
         $analytics_label = "Project";
