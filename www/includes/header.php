@@ -42,20 +42,15 @@
 
 <!-- ANALYTICS -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=<?= $id_tracker; ?>"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143458033-1"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', '<?= $id_tracker; ?>', {
-        'page_title' : '<?= addslashes($analytics_label); ?>', 'dimension1' : '<?= strtoupper($langue); ?>'
-    });
+  gtag('config', '<?= $id_tracker; ?>');
 </script>
+
 <!-- END ANALYTICS -->
 
 </head>

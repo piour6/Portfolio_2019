@@ -3,9 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-        <loc>http://test.be/fr/</loc>
-        <xhtml:link rel="alternate" hreflang="fr-be" href="http://test.be/fr/" />
-        <xhtml:link rel="alternate" hreflang="nl-be" href="http://test.be/nl/" />
+        <loc>https://pierre-henrion.be/fr/</loc>
+        <xhtml:link rel="alternate" hreflang="fr-be" href="https://pierre-henrion.be/fr/" />
+  </url>
+  
+  <url>
+        <loc>https://pierre-henrion.be/fr/a-propos</loc>
+        <xhtml:link rel="alternate" hreflang="fr-be" href="https://pierre-henrion.be/fr/a-propos" />
+  </url>
+  
+  <url>
+        <loc>https://pierre-henrion.be/fr/projets/1/dieteren</loc>
+        <xhtml:link rel="alternate" hreflang="fr-be" href="https://pierre-henrion.be/fr/projets/1/dieteren" />
+  </url>
+  
+  <url>
+        <loc>https://pierre-henrion.be/fr/projets/2/balade</loc>
+        <xhtml:link rel="alternate" hreflang="fr-be" href="https://pierre-henrion.be/fr/projets/2/balade" />
+  </url>
+  
+  <url>
+        <loc>https://pierre-henrion.be/fr/projets/3/bruxelles-formation</loc>
+        <xhtml:link rel="alternate" hreflang="fr-be" href="https://pierre-henrion.be/fr/projets/3/bruxelles-formation" />
+  </url>
+  
+  <url>
+        <loc>https://pierre-henrion.be/fr/projets/4/velux</loc>
+        <xhtml:link rel="alternate" hreflang="fr-be" href="https://pierre-henrion.be/fr/projets/4/velux" />
+  </url>
+  
+  <url>
+        <loc>https://pierre-henrion.be/fr/projets/5/octobus</loc>
+        <xhtml:link rel="alternate" hreflang="fr-be" href="https://pierre-henrion.be/fr/projets/4/velux" />
   </url>
 
 </urlset>
