@@ -16,6 +16,8 @@ $(document).ready(function() {
 
     var original = $(".logo__subtitle").html();
 
+    var tick;
+
     var intro_loading = 5000;
 
     function removeAnimIntro(){
@@ -23,6 +25,7 @@ $(document).ready(function() {
 	    	$("body").removeClass("has_intro");
 	    	clearInterval(interval);
 			$(".logo__subtitle").html(original);
+			intervalSlider();
 	    },intro_loading);
     }
 
@@ -71,6 +74,22 @@ $(document).ready(function() {
 		$(".logo__subtitle").text(text);
 	}
 
+	function intervalSlider(){
+		$(".slider__progress")
+			.clearQueue()
+			.stop()
+			.css(
+				{width:'0'}
+			)
+			.animate({
+			width: "100%"
+		}, 10000, function(){
+			$(".slider__progress").finish();			
+			homeNextSlide();
+			intervalSlider();
+		});
+	}
+
 	if($("body").hasClass("has_intro")){
 
 		removeAnimIntro();
@@ -84,7 +103,15 @@ $(document).ready(function() {
 		  url     :baseroot+"/data/create_session.php",
 		});
 
+	} else {
+		intervalSlider();
 	}
+
+	$(".logo").click(function(e){
+		if($("body").hasClass("has_intro")){
+			e.preventDefault();
+		}
+	});
 
 /*  ==========================================================================
     Is mobile
@@ -212,7 +239,8 @@ $(document).ready(function() {
 			$(".js_home_slider[data-id=1]").trigger("click");
 		} else {
 			$(".js_home_slider[data-id="+id_click+"]").trigger("click");
-		}    	
+		}
+		intervalSlider();    	
     }
 
     function homePrevSlide(){
@@ -222,6 +250,7 @@ $(document).ready(function() {
 		} else {
 			$(".js_home_slider[data-id="+id_click+"]").trigger("click");
 		}
+		intervalSlider();
     }
 
 /*  ==========================================================================

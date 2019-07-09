@@ -2,6 +2,12 @@
 
 	<section class="slider slider--project">
 		<div class="noise"></div>	
+		
+		<!--
+		<a href="<?= $domain; ?>/projets/<?= $prev_id; ?>/<?= $trad['projet'.$prev_id.'_slug']; ?>" class="slider__arrow slider__arrow--prev js_link"></a>
+		<a href="<?= $domain; ?>/projets/<?= $next_id; ?>/<?= $trad['projet'.$next_id.'_slug']; ?>" class="slider__arrow slider__arrow--next js_link"></a>
+		-->
+
 		<div class="slider__items">
 			<div class="slider__item slider__item--<?= $id; ?> slider__item--active" data-id="<?= $id; ?>">
 				<div class="slider__item-picture slider__item-picture--<?= $id; ?>"></div>
@@ -13,22 +19,24 @@
 		<div class="line line--top line--3"></div>
 		<div class="line line--top line--4"></div>
 
-		<div class="container container--project">
+		<div class="container container--mini container--project">
 			<h1 class="project__title" data-text="<?= $trad['projet'.$id.'_title']; ?>"><?= $trad['projet'.$id.'_title']; ?></h1>
-			<ul class="project__infos">
-				<li>
-					<small class="project__infos-title">Contexte</small>
-					<?= $trad['projet'.$id.'_context']; ?>
-				</li>
-				<li>
-					<small class="project__infos-title">Année</small>
-					<?= $trad['projet'.$id.'_year']; ?>
-				</li>
-				<li>
-					<small class="project__infos-title">Tâches</small>
-					<?= $trad['projet'.$id.'_tasks']; ?>
-				</li>
-			</ul>
+			<div class="project__intro">
+				<ul class="project__infos">
+					<li>
+						<small class="project__infos-title">Contexte</small>
+						<?= $trad['projet'.$id.'_context']; ?>
+					</li>
+					<li>
+						<small class="project__infos-title">Année</small>
+						<?= $trad['projet'.$id.'_year']; ?>
+					</li>
+					<li>
+						<small class="project__infos-title">Tâches</small>
+						<?= $trad['projet'.$id.'_tasks']; ?>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</section>
 
@@ -70,9 +78,12 @@
 			</div>
 		</div>
 
+		<?php if(!empty($trad['projet'.$id.'_url'])){ ?>
 		<div class="container container--margin container--mini container--center">
+			<h2 class="project__title-min">Envie d'en savoir plus&nbsp;?</h2>
 			<a class="button button--purple" href="<?= $trad['projet'.$id.'_url']; ?>" target="_blank">Voir le site</a>
 		</div>
+		<?php } ?>
 
 	</section>
 

@@ -85,6 +85,9 @@
 
 	</footer>
 
+	<div class="slider__progress"></div>
+	<div class="slider__progress-bg"></div>
+
 </section>
 
 <canvas id="blob"></canvas>
