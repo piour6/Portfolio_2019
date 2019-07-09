@@ -70,6 +70,19 @@
 						<small class="about__jobs-period">Octobre 2011 - Décembre 2011</small>
 					</div>
 
+					<h2 class="about__subtitle about__subtitle--yellow">Projets personnels</h2>
+
+					<div class="about__jobs-item">
+						<strong class="about__jobs-function">Co-fondateur</strong>
+						<h3 class="about__jobs-title" data-text="Octobus">Octobus</h3>
+						<small class="about__jobs-period">Avril 2019 - Maintenant</small>
+						<p class="about__jobs-text">
+							Projet issu du Hackathon <a target="_blank" href="https://www.youtube.com/watch?v=wGw8yZEVI7A">Citizens of Wallonia</a> à l'UMons nominé dans 8 des 10 catégories possibles, 3 prix remportés (territoires intelligents, gamification et grand prix Digital Wallonia).
+							<br /><br />
+							La presse en a également parlé : <a target="_blank" href="https://plus.lesoir.be/216764/article/2019-04-05/un-velo-collectif-assistance-electrique-pour-aller-lecole?referer=%2Farchives%2Frecherche%3Fdatefilter%3Dlastyear%26sort%3Ddate%2520desc%26word%3DOctobus">Le Soir</a>, <a target="_blank" href="https://www.rtbf.be/auvio/detail_empreinte-digitale-citizens-of-wallonia-le-projet-octobus?id=2477047&fbclid=IwAR3EBEJ1ijdEMACiW649n323PQk7Su75BJKYAV0WHWki8PXJmBSnyMd7HQ8">Empreinte Digitale (RTBF)</a>, <a target="_blank" href="https://www.tvcom.be/article/info/evye-nements/la-ville-de-wavre-vainqueuse-du-hackathon-citizens-of-wallonia_23729_89.html?fbclid=IwAR31hhehGDYgMPft_Im3p3IMrVQ-DQngcrPq78FWXw4CqEaQAzxCkPekOD8">TVCom</a>, <a target="_blank" href="https://www.rtbf.be/vivacite/emissions/detail_aller-retour-namur-luxembourg-et-brabant-wallon/accueil/article_decouvrez-octobus-une-start-up-de-ramassage-scolaire-avec-velo-collectif-ou-cuistax?id=10191519&programId=5323&fbclid=IwAR0ttzY9cBi2iY4--thkY8XZXbI-QhwukW8fG5x8U0PfBI-x2RzfUnkb6Uc">Aller/Retour (Vivacité)</a>, <a target="_blank" href="https://www.lavenir.net/cnt/dmf20190326_01314483/l-ecole-vie-de-bierges-testera-l-octobus">L'Avenir</a>. 
+						</p>
+					</div>
+
 				</div>
 
 				<div class="about__jobs-col about__jobs-col--right js_about_section" data-section="skills">

@@ -1679,6 +1679,19 @@ button, input, optgroup, select, textarea {
     color: rgba(255,255,255,0.3);
 }
 
+.about__jobs-text {
+    line-height: 1.5;
+    margin-top: 25px;
+    color: rgba(255,255,255,0.7);
+    a {
+        color: #fff;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        &:hover {
+            border-bottom: 0;
+        }
+    }
+}
+
 .about__skills {
     position: relative;
     overflow: hidden;
