@@ -36,6 +36,11 @@ switch ($page){
             } else {
                 $next_id = $id + 1;
             }
+            if($id==1){
+                $prev_id = $accepted_ids_length;
+            } else {
+                $prev_id = $id - 1;
+            }
         } else {
             display404();
         }
