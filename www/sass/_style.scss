@@ -1858,7 +1858,6 @@ button, input, optgroup, select, textarea {
 }
 
 .container--full {
-    padding: 2px;
     @include clearfix;
     @include mq("tablet"){
         display: none;
@@ -2000,9 +1999,9 @@ button, input, optgroup, select, textarea {
 .picture--third {
     width: 33.3333%;
     float: left;
-    padding: 2px;
     img {
         width: 100%;
+        border-radius: 0;
     }
     @include mq("mobile"){
         width: 100%;
