@@ -53,29 +53,37 @@
 					<h2 class="about__subtitle about__subtitle--yellow">Expérience en agence</h2>
 
 					<div class="about__jobs-item">
-						<strong class="about__jobs-function">Lead front-end developer</strong>
-						<h3 class="about__jobs-title" data-text="strategie agency">strategie agency</h3>
-						<small class="about__jobs-period">Septembre 2017 - Maintenant</small>
+						<div class="about__jobs-content about__jobs-content--strategie">
+							<strong class="about__jobs-function">Lead front-end developer</strong>
+							<h3 class="about__jobs-title" data-text="strategie agency">strategie agency</h3>
+							<small class="about__jobs-period">Septembre 2017 - Maintenant</small>
+						</div>
 					</div>
 
 					<div class="about__jobs-item">
-						<strong class="about__jobs-function">Creative designer & front-end developer</strong>
-						<h3 class="about__jobs-title" data-text="creaxial">creaxial</h3>
-						<small class="about__jobs-period">Septembre 2012 - Septembre 2017</small>
+						<div class="about__jobs-content about__jobs-content--creaxial">
+							<strong class="about__jobs-function">Creative designer & front-end developer</strong>
+							<h3 class="about__jobs-title" data-text="creaxial">creaxial</h3>
+							<small class="about__jobs-period">Septembre 2012 - Septembre 2017</small>
+						</div>
 					</div>
 
 					<div class="about__jobs-item">
-						<strong class="about__jobs-function">Stage de fin d'études (BAC 3 à la Haute École Albert Jacquard de Namur)</strong>
-						<h3 class="about__jobs-title" data-text="creaxial">creaxial</h3>
-						<small class="about__jobs-period">Octobre 2011 - Décembre 2011</small>
+						<div class="about__jobs-content about__jobs-content--creaxial">
+							<strong class="about__jobs-function">Stage de fin d'études (BAC 3 à la Haute École Albert Jacquard de Namur)</strong>
+							<h3 class="about__jobs-title" data-text="creaxial">creaxial</h3>
+							<small class="about__jobs-period">Octobre 2011 - Décembre 2011</small>
+						</div>
 					</div>
 
 					<h2 class="about__subtitle about__subtitle--yellow">Projets personnels</h2>
 
 					<div class="about__jobs-item">
-						<strong class="about__jobs-function">Co-fondateur</strong>
-						<h3 class="about__jobs-title" data-text="Octobus">Octobus</h3>
-						<small class="about__jobs-period">Avril 2019 - Maintenant</small>
+						<div class="about__jobs-content about__jobs-content--octobus">
+							<strong class="about__jobs-function">Co-fondateur</strong>
+							<h3 class="about__jobs-title" data-text="Octobus">Octobus</h3>
+							<small class="about__jobs-period">Avril 2019 - Maintenant</small>
+						</div>
 						<p class="about__jobs-text">
 							Projet issu du Hackathon <a target="_blank" href="https://www.youtube.com/watch?v=wGw8yZEVI7A">Citizens of Wallonia</a> à l'UMons nominé dans 8 des 10 catégories possibles, 3 prix remportés (territoires intelligents, gamification et grand prix Digital Wallonia).
 							<br /><br />

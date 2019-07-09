@@ -1635,6 +1635,40 @@ button, input, optgroup, select, textarea {
     } 
 }
 
+.about__jobs-content {
+    padding-left: 90px;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 100%;
+    }
+}
+
+.about__jobs-content--creaxial {
+    &:before {
+        background: url(../../graphics/about/creaxial.png) center center no-repeat;
+        background-size: contain;
+    }
+}
+
+.about__jobs-content--strategie {
+    &:before {
+        background: url(../../graphics/about/strategie.png) center center no-repeat;
+        background-size: contain;
+    }
+}
+
+.about__jobs-content--octobus {
+    &:before {
+        background: url(../../graphics/about/octobus.png) center center no-repeat;
+        background-size: contain;
+    }
+}
+
 .about__jobs-item {
     margin-bottom: 40px;
     padding-bottom: 40px;
