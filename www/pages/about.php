@@ -16,7 +16,7 @@
 
 			<div class="about__intro-right">
 
-				<h2 class="about__mediumtitle">Et accessoiremment développeur front-end & UI/UX designer</h2>
+				<h2 class="about__mediumtitle">Et accessoirement développeur front-end & UI/UX designer</h2>
 
 				<div class="about__sepa about__sepa--mini"></div>
 
