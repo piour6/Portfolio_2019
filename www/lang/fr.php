@@ -14,7 +14,7 @@ $trad['projet1_context'] = 'Réalisé chez strategie agency';
 $trad['projet1_year'] = '2018';
 $trad['projet1_tasks'] = 'Développement front-end';
 $trad['projet1_url'] = 'https://stock.volkswagen.be/fr/';
-$trad['projet1_intro'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus, nunc eu ultricies tincidunt, leo turpis elementum orci, et condimentum tortor lacus nec orci. Mauris mattis faucibus metus. Duis ac leo arcu. Sed id nulla et dui ultrices vehicula. Mauris massa turpis, porttitor in nulla vel, fermentum facilisis ipsum.';
+$trad['projet1_intro'] = '';
 
 // projet 2
 

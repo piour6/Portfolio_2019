@@ -87,9 +87,6 @@ if(isset($langue) && in_array($langue, $accepted_lang)){
     }
     $domain = generateDomainWithLang($baseRoot, $langue);
 }elseif($uri != "splash" && $uri != "sitemap.xml"){
-    /* Don't comment next line if we have a Splash-Page */
-    // header('Location: ' . $baseRoot . '/splash'); 
-    /* Don't comment next line if we don't have a Splash-Page */
     header('Location: ' . $baseRoot . '/' . $default_lang);
     exit();
 }else{
