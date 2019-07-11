@@ -7,6 +7,8 @@
                                    
 N'hésitez pas à me contacter : henrion.pierre@gmail.com
 
+Bisous bisous
+
 -->
 
 <!DOCTYPE html>
@@ -19,10 +21,17 @@ N'hésitez pas à me contacter : henrion.pierre@gmail.com
 
 <title><?php print $title_page; ?></title>
 <meta name="description" content="<?php print $desc_page; ?>" />
-<meta name="author" content="strategie.agency" />
+<meta name="author" content="Pierre Henrion" />
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="keywords" content="">
+
+<!-- Prefetch & preconnect -->
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="preconnect" href="//fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="//ajax.googleapis.com" crossorigin />
+<link rel="preconnect" href="//www.google-analytics.com" crossorigin />
 
 <!-- Facebook -->
 <meta property="og:title" content="<?php print $title_page; ?>" />
