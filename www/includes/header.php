@@ -5,6 +5,7 @@
 ( (__| |_| | |_| ( (__| |_| | |_| |
  \____)___/ \____|\____)___/ \____|
                                    
+N'hésitez pas à me contacter : henrion.pierre@gmail.com
 
 -->
 
@@ -12,7 +13,9 @@
 <html lang="<?php print $langue; ?>-be">
 <head>
 <meta charset="utf-8" />
-<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+<link rel="canonical" href="<?= $domain; ?>/<?= $uri; ?>"/>
 
 <title><?php print $title_page; ?></title>
 <meta name="description" content="<?php print $desc_page; ?>" />
@@ -21,12 +24,18 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="keywords" content="">
 
+<!-- Facebook -->
 <meta property="og:title" content="<?php print $title_page; ?>" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="<?php print $baseRoot; ?>/<?= $share_img; ?>" />
 <meta property="og:description" content="<?php print $desc_page; ?>" />
 <meta property="og:url" content="<?php print $domain."/".$uri; ?>" />
 
+<!-- Twitter -->
+<meta name="twitter:title" content="<?php print $title_page; ?>">
+<meta name="twitter:description" content="<?php print $desc_page; ?>">
+
+<!-- Google font -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700" rel="stylesheet">
 
 <link href="<?= $baseRoot; ?>/dist/css/style.min.css?v=<?= $version; ?>" rel="stylesheet" type="text/css"/>
@@ -42,7 +51,7 @@
 
 <!-- ANALYTICS -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143458033-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?= $id_tracker; ?>"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
