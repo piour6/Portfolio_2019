@@ -93,10 +93,10 @@ if(isset($langue) && in_array($langue, $accepted_lang)){
     $langue = $default_lang;
 }
 
-if($uri == "sitemap.xml"){
-    include('sitemap.php');
-    exit();
-}
+// if($uri == "sitemap.xml"){
+//     include('sitemap.php');
+//     exit();
+// }
 
 /* ==========================================================================
     Inclusion trad
