@@ -43,7 +43,8 @@ switch ($page){
             display404();
         }
         $title_page = $trad['projet'.$id.'_title']." — Projets — Pierre Henrion";
-        $section='about';
+        $desc_page = strip_tags($trad['projet'.$id.'_intro']);
+        $section='projects';
         $analytics_label = "Project";
         include('includes/header.php');
         include('pages/project_detail.php');
