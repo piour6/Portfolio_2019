@@ -485,6 +485,26 @@ button, input, optgroup, select, textarea {
     }
 }
 
+.gradient {
+    background: transparent;
+    background: linear-gradient(0deg, rgba($purple,1) 0%, rgba($purple,0) 100%); 
+    z-index: 45;
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;    
+}
+
+.gradient--yellow {
+    height: 100%;
+    background: linear-gradient(0deg, rgba($yellow,1) 0%, rgba($yellow,0) 100%); 
+    opacity: 0;
+    z-index: 0;
+}
+
 #blob {
 	position: fixed;
 	top: 0;
@@ -726,18 +746,21 @@ button, input, optgroup, select, textarea {
 	position: relative;
 	top: 0;
 	left: 0;
-    padding: 280px 0 150px 0;
+    padding: 280px 0 70px 0;
 	width: 100%;
 	overflow: hidden;
     transform: scale(1);
     @include mq("tablet"){
         padding-top: 190px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     .noise {
         &:before {
             pointer-events: auto;
         }
+    }
+    .slider__arrow {
+        margin-top: 50px;
     }
 }
 
@@ -1751,7 +1774,7 @@ button, input, optgroup, select, textarea {
     }    
 }
 
-.about__sepa {
+.sepa {
     background: url(../../graphics/pattern.gif);
     display: block;
     border: 0;
@@ -1772,11 +1795,15 @@ button, input, optgroup, select, textarea {
     }
 }
 
-.about__sepa--mini {
+.sepa--mini {
     width: 60px;
     border-radius: 20px;
     margin: 0;
     margin-bottom: 40px;
+}
+
+.sepa--center {
+    margin: 0 auto;
 }
 
 .about__clients-item {
@@ -1907,6 +1934,10 @@ button, input, optgroup, select, textarea {
     }
 }
 
+.project__title--mini {
+     @include fluid-type(36px, 72px);
+}
+
 .project__title-min {
     font-family: $heavy;
     text-transform: uppercase;
@@ -1965,6 +1996,40 @@ button, input, optgroup, select, textarea {
         margin-top: 30px;
     }    
     @include clearfix;
+}
+
+.project__text {
+    position: relative;
+    background: $purple;
+    // padding-top: 50px;
+    padding-bottom: 150px;
+    @include mq("tablet"){
+        padding-bottom: 100px;
+    }
+}
+
+.project__text-content {
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 1.6;
+    // font-size: 21px;
+    padding-top: 70px;
+    font-weight: 100;
+    word-spacing: 2px;
+    color: rgba(255,255,255,0.8);
+    @include mq("tablet"){
+        padding-left: 0;
+        padding-right: 0; 
+        font-size: inherit;  
+        padding-top: 50px;     
+    }
+    a {
+        color: #fff;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        &:hover {
+            border-bottom: 0;
+        }
+    }    
 }
 
 .project__intro-text {

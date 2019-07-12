@@ -18,7 +18,7 @@
 
 				<h2 class="about__mediumtitle">Et accessoirement développeur front-end & UI/UX designer</h2>
 
-				<div class="about__sepa about__sepa--mini"></div>
+				<div class="sepa sepa--mini"></div>
 
 				<p class="about__intro-right-parag">
 
@@ -260,7 +260,7 @@
 			</div>
 		</div>
 
-		<div class="about__sepa"></div>
+		<div class="sepa"></div>
 
 		<div class="about__contact">
 			<div class="container container--mini">

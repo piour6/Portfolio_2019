@@ -1,23 +1,18 @@
 <div class="project">
 
 	<section class="slider slider--project">
+
+		<div class="gradient"></div>	
 		<div class="noise"></div>	
-		
-		<!--
+
 		<a href="<?= $domain; ?>/projets/<?= $prev_id; ?>/<?= $trad['projet'.$prev_id.'_slug']; ?>" class="slider__arrow slider__arrow--prev js_link"></a>
 		<a href="<?= $domain; ?>/projets/<?= $next_id; ?>/<?= $trad['projet'.$next_id.'_slug']; ?>" class="slider__arrow slider__arrow--next js_link"></a>
-		-->
 
 		<div class="slider__items">
 			<div class="slider__item slider__item--<?= $id; ?> slider__item--active" data-id="<?= $id; ?>">
 				<div class="slider__item-picture slider__item-picture--<?= $id; ?>"></div>
 			</div>
 		</div>
-
-		<div class="line line--top line--1"></div>
-		<div class="line line--top line--2"></div>
-		<div class="line line--top line--3"></div>
-		<div class="line line--top line--4"></div>
 
 		<div class="container container--mini container--project">
 			<h1 class="project__title" data-text="<?= $trad['projet'.$id.'_title']; ?>"><?= $trad['projet'.$id.'_title']; ?></h1>
@@ -39,6 +34,20 @@
 			</div>
 		</div>
 	</section>
+
+	<div class="project__text">
+		<div class="line line--top line--1"></div>
+		<div class="line line--top line--2"></div>
+		<div class="line line--top line--3"></div>
+		<div class="line line--top line--4"></div>
+		<div class="gradient gradient--yellow"></div>
+		<div class="container container--mini">
+			<div class="sepa sepa--center sepa--mini"></div>
+			<div class="project__text-content">
+				<?= $trad['projet'.$id.'_intro']; ?>
+			</div>
+		</div>
+	</div>
 
 	<section class="project__content">
 
