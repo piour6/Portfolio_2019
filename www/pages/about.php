@@ -107,6 +107,7 @@
 						<li>cross-browser + responsive + mobile</li>
 						<li>tracking analytics avancé</li>
 						<li>au courant des normes GDPR</li>
+						<li>notions de base de PHP/MySQL/PostgreSQL</li>
 						<li>bonnes notions de seo</li>
 						<li>bonne maitrise de la suite adobe creative (photoshop & illustrator)</li>
 					</ul>
@@ -127,136 +128,167 @@
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/balade.png" alt="balade" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/velux.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/velux.png" alt="velux" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/kinder.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/kinder.png" alt="kinder" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/proximus.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/proximus.png" alt="proximus" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/loreal.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/loreal.png" alt="loreal" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/nutella.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/nutella.png" alt="nutella" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/spa.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/spa.png" alt="spa" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/carlsbourg.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/carlsbourg.png" alt="carlsbourg" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/heytens.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/heytens.png" alt="heytens" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/quick.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/quick.png" alt="quick" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/touring.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/touring.png" alt="touring" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/dieteren.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/dieteren.png" alt="dieteren" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/durex.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/durex.png" alt="durex" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/dixan.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/dixan.png" alt="dixan" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/scholl.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/scholl.png" alt="scholl" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/stimorol.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/stimorol.png" alt="stimorol" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/clubmed.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/clubmed.png" alt="clubmed" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/makro.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/makro.png" alt="makro" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/ndg.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/ndg.png" alt="ndg" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/betfirst.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/betfirst.png" alt="betfirst" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/nivea.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/nivea.png" alt="nivea" />
 					</div>
 				</div>
 
 				<div class="about__clients-item">
 					<div class="about__clients-item-content">
-						<img src="<?= $baseRoot; ?>/graphics/clients/childfocus.png" />
+						<img src="<?= $baseRoot; ?>/graphics/clients/childfocus.png" alt="childfocus" />
 					</div>
 				</div>
 
+			</div>
+		</div>
+
+		<div class="about__project">
+			<div class="container container--mini">
+				<div class="about__project-slider">
+
+					<h2 class="about__project-slider-title">Mes projets</h2>
+
+					<div class="js_slider_projets">
+
+						<?php for($i = 0; $i < count($accepted_ids); $i++) { ?>
+
+						<div class="about__project-slider-item">
+							<div class="about__project-slider-content">
+								<div class="slider__item-content">
+									<div class="slider__item-title">
+										<h3 class="slider__item-title-elem" data-text="<?= $trad['projet'.$accepted_ids[$i].'_title']; ?>"><?= $trad['projet'.$accepted_ids[$i].'_title']; ?></h3>
+									</div>
+									<div class="slider__item-cta">
+										<a href="<?= $domain; ?>/projets/<?= $accepted_ids[$i]; ?>/<?= $trad['projet'.$accepted_ids[$i].'_slug']; ?>" class="slider__item-button js_open_case">Découvrir</a>
+									</div>
+								</div>
+								<div class="slider__item-picture slider__item-picture--<?= $accepted_ids[$i]; ?>"></div>
+							</div>
+						</div>
+
+						<?php } ?>
+
+					</div>
+				</div>
 			</div>
 		</div>
 

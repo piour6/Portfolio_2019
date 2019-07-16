@@ -2,6 +2,8 @@
 
 $title_page = "";
 $desc_page = "Véritable ninja des internets orienté solution.";
+$accepted_ids = ["1","2","3","4","5"];
+$accepted_ids_length = count($accepted_ids);
 
 switch ($page){
 
@@ -25,8 +27,6 @@ switch ($page){
 
     // about          
     case 'project_detail':
-        $accepted_ids = ["1","2","3","4","5"];
-        $accepted_ids_length = count($accepted_ids);
         if(isset($_GET['id']) && in_array($_GET['id'], $accepted_ids)){
             $id = $_GET['id'];
             if($id==$accepted_ids_length){

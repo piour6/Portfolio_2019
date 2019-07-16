@@ -362,11 +362,18 @@ $(document).ready(function() {
 		  dots: false,
 		  infinite: true,
 		  speed: 300,
-		  slidesToShow: 8,
-		  slidesToScroll: 8,
+		  slidesToShow: 10,
+		  slidesToScroll: 10,
 		  autoplay: true,
 		  arrows: false,
 		  responsive: [
+		    {
+		      breakpoint: 1800,
+		      settings: {
+		        slidesToShow: 8,
+		        slidesToScroll: 8
+		      }
+		    },
 		    {
 		      breakpoint: 1400,
 		      settings: {
@@ -389,6 +396,22 @@ $(document).ready(function() {
 		      }
 		    }
 		  ]
+		});
+	}
+
+/*  ==========================================================================
+    About : slider projets
+    ==========================================================================  */
+
+	if($('.js_slider_projets').is(":visible")){
+		$('.js_slider_projets').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 300,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  arrows: false,
 		});
 	}
 
