@@ -361,7 +361,7 @@ $(document).ready(function() {
 		$('.js_slider_logos').slick({
 		  dots: false,
 		  infinite: true,
-		  speed: 300,
+		  speed: 500,
 		  slidesToShow: 10,
 		  slidesToScroll: 10,
 		  autoplay: true,
