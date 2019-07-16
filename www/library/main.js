@@ -132,7 +132,7 @@ $(document).ready(function() {
 	var previousPosition = 0;
 	var nav_state = 1;
 	var currentPosition = 0;
-	var seuilScroll = 150;
+	var seuilScroll = 50;
 
 	$(window).scroll(function(){
 		currentPosition = $(window).scrollTop();

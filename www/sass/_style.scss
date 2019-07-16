@@ -1191,7 +1191,11 @@ button, input, optgroup, select, textarea {
 
 .header-state1.header-state3 {
     .header {
-        background: $purple;
+    	background: $purple;
+        &:before {
+        	opacity: 1;
+        	display: none;
+        }        
     }
 }
 
@@ -1213,7 +1217,25 @@ button, input, optgroup, select, textarea {
     width: 100%;
     left: 0;
     top: 0;
-    transition: all ease-out 0.6s;
+    transition: margin-top ease-out 0.6s;
+    &:before {
+    	content: '';
+    	position: absolute;
+    	height: 300px;
+    	width: 100%;
+    	top: 0;
+    	left: 0;
+    	z-index: 0;
+		background: $purple;
+		background: linear-gradient(0deg, rgba($purple,0) 0%, rgba($purple,1) 100%);
+    	opacity: 0;
+    	// transform: translateY(-50%);
+    	@include transition;
+    	pointer-events: none;
+    	@include mq("tablet"){
+    		display: none;
+    	}
+    }      
     @include mq("tablet"){
         position: absolute;
         padding: 0;
