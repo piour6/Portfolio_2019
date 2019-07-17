@@ -1392,7 +1392,7 @@ button, input, optgroup, select, textarea {
     right: 60px;
     display: none;
     z-index: 99999;
-    background: $yellow;
+    background: $purple;
     border-radius: 50%;
     opacity: 1;
     @include mq("tablet"){
@@ -1408,8 +1408,17 @@ button, input, optgroup, select, textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    fill: $purple;
+    fill: #fff;
     @include transition;
+}
+
+.page_home {
+    .hamburger {
+        background: none;
+    }
+    .hamburger__svg {
+        fill: #fff;
+    }
 }
 
 .header__nav-alt {
