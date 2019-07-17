@@ -28,14 +28,14 @@
 
 					<br /><br />
 
-					Orienté solution et véritable team player, j’adore les
+					Doté d'un esprit créatif, orienté solution et véritable team player, j’adore les
 					challenges en équipe qui m’offrent la possibilité de me remettre en question
 					et d’étendre <a class="link js_about_scrollto" data-section="skills" href="#">mes compétences</a>.
 
 					<br /><br />
 
-					J'ai parfois un humour douteux, j’aime
-					beaucoup jouer au basket et j’adore la nourriture asiatique.
+					J'ai parfois un humour douteux, j’aime beaucoup jouer au basket et j’adore la nourriture asiatique.
+
 				</p>
 
 			</div>
@@ -103,8 +103,8 @@
 						<li>préprocesseur sass</li>
 						<li>emploi de npm/gulp</li>
 						<li>versioning avec git</li>
-						<li>webdesign, ux/ui design</li>
-						<li>cross-browser + responsive + mobile</li>
+						<li>webdesign, ux/ui design, prototyping</li>
+						<li>développement cross-browser + responsive + mobile</li>
 						<li>tracking analytics avancé</li>
 						<li>au courant des normes GDPR</li>
 						<li>notions de base de PHP/MySQL/PostgreSQL</li>
