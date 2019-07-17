@@ -34,7 +34,7 @@
 
 					<br /><br />
 
-					Je fais parfois des blagues pas drôles, j’aime
+					J'ai parfois un humour douteux, j’aime
 					beaucoup jouer au basket et j’adore la nourriture asiatique.
 				</p>
 

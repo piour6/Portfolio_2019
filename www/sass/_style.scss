@@ -594,6 +594,8 @@ button, input, optgroup, select, textarea {
     @include transition_speed;
     &:hover {
         background: rgba(0,0,0,0.2);
+        color: #fff;
+
         // letter-spacing: 5px;
     }
     @include mq("tablet"){
@@ -623,11 +625,13 @@ button, input, optgroup, select, textarea {
     font-size: 12px;
     margin-right: 0;
     border: 0;
-    background: $purple;
-    color: $yellow;
+    background: $yellow;
+    background: linear-gradient(45deg,#d07345 0,$yellow 100%);
+    color: #fff;
     &:hover {
         letter-spacing: 5px;
-        background: $purple;
+        background: $yellow;
+        background: linear-gradient(45deg,#d07345 0,$yellow 100%);        
     }
 }
 
@@ -1105,13 +1109,16 @@ button, input, optgroup, select, textarea {
     z-index: 99;
     padding: 20px 80px;
     line-height: 1;
-    border: 1px solid $yellow;
-    color: $yellow;
+    // border: 1px solid $yellow;
+    // color: $yellow;
+    color: #fff;
+    background: $yellow;
+    background: linear-gradient(45deg, rgba(#d07345,1) 0%, rgba($yellow,1) 100%);
     letter-spacing: 3px;
     white-space: nowrap;
     border-radius: 50px;
     &:hover {
-        background: rgba(0,0,0,0.2);
+        // background: rgba(0,0,0,0.2);
         letter-spacing: 5px;
     }
     @include mq("mobile"){
@@ -1811,6 +1818,7 @@ button, input, optgroup, select, textarea {
         top: 0;
         left: 0;
         background: $yellow;
+        background: linear-gradient(45deg,#d07345 0,$yellow 100%); 
         opacity: 0.7;
         z-index: 4;
         height: 100%;
@@ -1964,6 +1972,20 @@ button, input, optgroup, select, textarea {
 	.slider__item-title {
 		@include fluid-type(40px, 100px);
 	}
+}
+
+.about__me {
+    padding: 150px 0;
+}
+
+.about__me-col {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 50px;
+    @include mq("tablet"){
+        width: 100%;
+    }
 }
 
 .about__contact {
