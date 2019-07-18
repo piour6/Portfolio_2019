@@ -1657,7 +1657,7 @@ button, input, optgroup, select, textarea {
 .about__jobs {
     margin-top: 100px;
     background: $purple;
-    padding: 100px 0;
+    padding: 150px 0;
     overflow: hidden;
     position: relative;
     color: #fff;
@@ -1846,6 +1846,13 @@ button, input, optgroup, select, textarea {
     margin: 0 auto;
 }
 
+.about__clients {
+    padding: 50px 0;
+    @include mq("tablet"){
+        padding: 0;
+    } 
+}
+
 .about__clients-item {
     width: 20%; 
 }
@@ -1943,7 +1950,7 @@ button, input, optgroup, select, textarea {
 .about__project-slider {
 	border-radius: 5px;
 	overflow: hidden;
-	padding-bottom: 100px;
+	padding-bottom: 150px;
 	position: relative;
 	z-index: 2;
     @include mq("laptop"){
