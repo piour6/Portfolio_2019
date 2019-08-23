@@ -16,7 +16,7 @@
 
 			<div class="about__intro-right">
 
-				<h2 class="about__mediumtitle">Et accessoirement développeur front-end & UI/UX designer</h2>
+				<h2 class="about__mediumtitle">Et accessoirement webdesigner & développeur front-end</h2>
 
 				<div class="sepa sepa--mini"></div>
 
@@ -54,7 +54,7 @@
 
 					<div class="about__jobs-item">
 						<div class="about__jobs-content about__jobs-content--strategie">
-							<strong class="about__jobs-function">Lead front-end developer</strong>
+							<strong class="about__jobs-function">Webdesigner & développeur front-end</strong>
 							<h3 class="about__jobs-title" data-text="strategie agency">strategie agency</h3>
 							<small class="about__jobs-period">Septembre 2017 - Maintenant</small>
 						</div>
@@ -62,7 +62,7 @@
 
 					<div class="about__jobs-item">
 						<div class="about__jobs-content about__jobs-content--creaxial">
-							<strong class="about__jobs-function">Creative designer & front-end developer</strong>
+							<strong class="about__jobs-function">Webdesigner & développeur front-end</strong>
 							<h3 class="about__jobs-title" data-text="creaxial">creaxial</h3>
 							<small class="about__jobs-period">Septembre 2012 - Septembre 2017</small>
 						</div>
