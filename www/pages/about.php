@@ -119,6 +119,8 @@
 						<li>notions de base de PHP/MySQL/PostgreSQL</li>
 						<li>bonnes notions de seo et d'accessibilité (anysurfer)</li>
 						<li>bonne maitrise de la suite adobe creative (photoshop, illustrator & xd)</li>
+						<li>familier des environnements Wordpress, Jekyll</li>
+						<li>petite expérience avec angular, vuejs et react native</li>
 					</ul>
 
 				</div>
