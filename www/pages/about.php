@@ -16,13 +16,13 @@
 
 			<div class="about__intro-right">
 
-				<h2 class="about__mediumtitle">Et accessoirement webdesigner & développeur front-end</h2>
+				<h2 class="about__mediumtitle">Et accessoirement web designer & intégrateur</h2>
 
 				<div class="sepa sepa--mini"></div>
 
 				<p class="about__intro-right-parag">
 
-					En 7 années d’expérience <a class="link js_about_scrollto" data-section="jobs" href="#">en agence</a>, j’ai eu l’opportunité de
+					En 8 années d’expérience <a class="link js_about_scrollto" data-section="jobs" href="#">en agence</a>, j’ai eu l’opportunité de
 					travailler pour des <a class="link js_about_scrollto" data-section="clients" href="#">clients divers et variés</a> qui m’ont appris à être
 					rigoureux et structuré.
 
@@ -53,16 +53,24 @@
 					<h2 class="about__subtitle about__subtitle--yellow">Expérience en agence</h2>
 
 					<div class="about__jobs-item">
+						<div class="about__jobs-content about__jobs-content--adneom">
+							<strong class="about__jobs-function">Webdesigner & intégrateur</strong>
+							<h3 class="about__jobs-title" data-text="Adneom">Adneom</h3>
+							<small class="about__jobs-period">Janvier 2020 - Maintenant</small>
+						</div>
+					</div>
+
+					<div class="about__jobs-item">
 						<div class="about__jobs-content about__jobs-content--strategie">
-							<strong class="about__jobs-function">Webdesigner & développeur front-end</strong>
+							<strong class="about__jobs-function">Webdesigner & intégrateur</strong>
 							<h3 class="about__jobs-title" data-text="strategie agency">strategie agency</h3>
-							<small class="about__jobs-period">Septembre 2017 - Maintenant</small>
+							<small class="about__jobs-period">Septembre 2017 - Décembre 2019</small>
 						</div>
 					</div>
 
 					<div class="about__jobs-item">
 						<div class="about__jobs-content about__jobs-content--creaxial">
-							<strong class="about__jobs-function">Webdesigner & développeur front-end</strong>
+							<strong class="about__jobs-function">Webdesigner & intégrateur</strong>
 							<h3 class="about__jobs-title" data-text="creaxial">creaxial</h3>
 							<small class="about__jobs-period">Septembre 2012 - Septembre 2017</small>
 						</div>
@@ -98,18 +106,19 @@
 					<h2 class="about__subtitle about__subtitle--yellow">Mon expertise</h2>
 
 					<ul class="about__list">
-						<li>html, css/scss, javascript, jquery</li>
+						<li>html, css/scss, jquery</li>
 						<li>méthodologie bem</li>
 						<li>préprocesseur sass</li>
 						<li>emploi de npm/gulp</li>
-						<li>versioning avec git</li>
+						<li>git workflow</li>
+						<li>agile/scrum</li>
 						<li>webdesign, ux/ui design, prototyping</li>
 						<li>développement cross-browser + responsive + mobile</li>
-						<li>tracking analytics avancé</li>
+						<li>tracking gtag/gtm</li>
 						<li>au courant des normes GDPR</li>
 						<li>notions de base de PHP/MySQL/PostgreSQL</li>
-						<li>bonnes notions de seo</li>
-						<li>bonne maitrise de la suite adobe creative (photoshop & illustrator)</li>
+						<li>bonnes notions de seo et d'accessibilité (anysurfer)</li>
+						<li>bonne maitrise de la suite adobe creative (photoshop, illustrator & xd)</li>
 					</ul>
 
 				</div>
@@ -299,7 +308,7 @@
 				<h2 class="about__contact-title">Envie d'en <span>savoir plus</span>&nbsp;?</h2>
 				<a href="mailto:henrion.pierre@gmail.com" class="button">E-mail</a>
 				<a href="https://www.linkedin.com/in/pierre-henrion-08a59328/" target="_blank" class="button">LinkedIn</a>
-				<a href="https://github.com/piour6/Portfolio_2019" target="_blank" class="button">GitHub</a>
+				<!--<a href="https://github.com/piour6/Portfolio_2019" target="_blank" class="button">GitHub</a>-->
 			</div>
 		</div>
 

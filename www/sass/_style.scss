@@ -1726,6 +1726,13 @@ button, input, optgroup, select, textarea {
     }
 }
 
+.about__jobs-content--adneom {
+    &:before {
+        background: url(../../graphics/about/adneom.png) center center no-repeat;
+        background-size: contain;
+    }
+}
+
 .about__jobs-content--octobus {
     &:before {
         background: url(../../graphics/about/octobus.png) center center no-repeat;

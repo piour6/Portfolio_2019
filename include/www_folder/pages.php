@@ -9,7 +9,7 @@ switch ($page){
 
     // home          
     case 'home':
-        $title_page = "Pierre Henrion — Développeur front-end & UI/UX designer";
+        $title_page = "Pierre Henrion — Web designer & intégrateur";
         $section='home';
         $analytics_label = "Homepage";
         include('includes/header.php');
